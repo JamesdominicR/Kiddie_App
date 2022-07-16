@@ -1,0 +1,56 @@
+name: kiddy_market
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_screenutil: ^5.5.3+2
+  carousel_slider: ^4.1.1
+  get: ^4.6.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/Images/icon.png
+    - assets/Images/Image home1.jpg
+    - assets/Images/Image home 2.jpg
+    - assets/Images/Image hoem3.webp
+    - assets/Images/product image 1.webp
+    - assets/Images/product image 2.jpg
+    - assets/Images/product image 3.webp
+    - assets/Images/procuct image 4.webp
+    - assets/Images/product image 5.jpg
+    - assets/Images/product image  shoe.jpg
+    - assets/Images/prof image.jpg
+    - assets/Images/account image.png
+    - assets/Images/boarding.jpg
+  #   - images/a_dot_ham.jpeg
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-ExtraBold.ttf
+        - asset: assets/fonts/Inter-Bold.ttf
+        - asset: assets/fonts/Inter-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+    - family: Splash
+      fonts:
+        - asset: assets/fonts/Splash-Regular.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  
