@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:kiddy_market/core/colors/colors.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:kiddy_market/view/home/widgets/textformfield_widget.dart';
+import 'package:kiddy_market/view/authentication/widgets/textformfield_widget.dart';
 import 'package:kiddy_market/view/main_page/screen_main_page.dart';
-import 'widgets/button_widget.dart';
+import '../home/widgets/button_widget.dart';
 
 class SignupScreen extends StatelessWidget {
   const SignupScreen({Key? key}) : super(key: key);
@@ -46,25 +46,46 @@ class SignupScreen extends StatelessWidget {
                   ],
                 ),
                 SizedBox(height: 20.h),
-                const TextformFieldWidget(
+                 TextformFieldWidget(
+                  controller: '',
                   title: 'username', 
-                  icon: Icons.person),
+                  icon: Icons.person,
+                  validator: (value) {},
+                  ),
+
+                  
                   SizedBox(height: 10.h),
-                  const TextformFieldWidget(
+                   TextformFieldWidget(
+                    controller: '',
                     title: 'Email Address', 
-                    icon: Icons.email),
+                    icon: Icons.email,
+                    validator: () {},
+                    ),
                     const SizedBox(height: 10),
-                    const TextformFieldWidget(
+                    TextformFieldWidget(
                       title: 'Phone Number',
-                     icon: Icons.phone),
+                      icon: Icons.phone,
+                      controller: '',
+                      validator: () {},
+                     
+                     ),
                      SizedBox(height: 10.h),
-                     const TextformFieldWidget(
+                     TextformFieldWidget(
+                      controller: '',
                       title: 'Password', 
-                      icon: Icons.lock),
+                      icon: Icons.lock,
+                      validator: (value) {} 
+                      
+                     
+                      ),
                       SizedBox(height: 10.h),
-                      const TextformFieldWidget(
+                      TextformFieldWidget(
+                        controller: '',
                         title: 'Confirm Password', 
-                        icon: Icons.lock),
+                        icon: Icons.lock,
+                        validator: (value) {},
+                        
+                        ),
                         SizedBox(height: 60.h),
                         ButtonWidget(
                         title: 'Sign up', 

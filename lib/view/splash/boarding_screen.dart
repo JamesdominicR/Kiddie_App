@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:kiddy_market/core/colors/colors.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:kiddy_market/view/home/signin_screen.dart';
+import 'package:kiddy_market/view/login/signin_screen.dart';
 import 'package:get/get.dart';
-import 'package:kiddy_market/view/home/signup_screen.dart';
+import 'package:kiddy_market/view/authentication/signup_screen.dart';
 
 class BoardingScreen extends StatelessWidget {
   const BoardingScreen({Key? key}) : super(key: key);
@@ -63,7 +63,7 @@ class BoardingScreen extends StatelessWidget {
     const SizedBox(height: 15),
     TextButton(
       onPressed: () {
-        Get.to(const SigninPage());
+        Get.to(SigninPage());
       },
       child: const Text('Sign In',
     style: TextStyle(
